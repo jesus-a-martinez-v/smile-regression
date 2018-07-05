@@ -1,6 +1,6 @@
 package randomforest
 
-import smile.data.{Attribute, AttributeDataset, NominalAttribute, NumericAttribute}
+import smile.data.{Attribute, AttributeDataset, NumericAttribute}
 import smile.read
 import smile.regression.randomForest
 import smile.validation.rmse
@@ -8,8 +8,8 @@ import smile.validation.rmse
 object RandomForest extends App {
   val attributes = new Array[Attribute](5)
 
-  attributes(0) = new NominalAttribute("Frequency")
-  attributes(1) = new NominalAttribute("Angle of attack")
+  attributes(0) = new NumericAttribute("Frequency")
+  attributes(1) = new NumericAttribute("Angle of attack")
   attributes(2) = new NumericAttribute("Chord length")
   attributes(3) = new NumericAttribute("Free-stream velocity")
   attributes(4) = new NumericAttribute("Suction side displacement thickness")
