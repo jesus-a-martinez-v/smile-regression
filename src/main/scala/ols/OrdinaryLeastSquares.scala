@@ -2,8 +2,8 @@ package ols
 
 import smile.data.{Attribute, AttributeDataset, NominalAttribute, NumericAttribute}
 import smile.read
-import smile.validation.rmse
 import smile.regression.ols
+import smile.validation.rmse
 
 object OrdinaryLeastSquares extends App {
   val attributes = new Array[Attribute](9)

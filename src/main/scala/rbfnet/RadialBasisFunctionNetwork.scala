@@ -1,8 +1,8 @@
 package rbfnet
 import smile.data.{Attribute, AttributeDataset, NumericAttribute}
-import smile.regression.rbfnet
 import smile.math.distance.EuclideanDistance
 import smile.read
+import smile.regression.rbfnet
 import smile.util.gaussrbf
 import smile.validation.rmse
 
